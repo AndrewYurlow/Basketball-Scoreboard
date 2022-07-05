@@ -1,0 +1,78 @@
+@font-face {
+    src: url("CursedTimerULiL.ttf") format("truetype");
+    font-family: "CursedTimer";
+}
+
+body, h3 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background: rgba(27, 36, 74, 1);
+    margin: 50px auto;
+}
+
+.score-container {
+    height: 250px;
+    margin-top: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.score-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(238, 238, 238, 1);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.score-field {
+    width: 155px;
+    height: 120px;
+    background: #111827;
+    text-align: center;
+}
+
+.score-points {
+    color: rgba(249, 79, 109, 1);
+    font-size: 90px;
+    line-height: 127px;
+    font-family: "CursedTimer";
+}
+
+.add-points-buttons {
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.point-button {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: inherit;
+    color: rgba(238, 238, 238, 1);
+    font-family: "CursedTimer";
+}
+
+#reset {
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 65px;
+    height: 45px;
+    width: 75px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: inherit;
+    color: rgba(238, 238, 238, 1);
+    font-family: "CursedTimer";
+}
